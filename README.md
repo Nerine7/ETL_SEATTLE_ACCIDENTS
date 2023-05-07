@@ -13,10 +13,12 @@ Si ya tienes todo el repositorio descargado y Docker configurado ejecuta los sig
 
 
    CARPETA SRC
+   
  En la carpeta src se pueden encontrar varios scripts que se pensaron al inicir el proyecto.
   
   
    Dockerfile
+   
 Este archivo es un Dockerfile utilizado para construir una imagen de Docker que incluye Apache Airflow y algunas dependencias Python necesarias. La imagen se crea a partir de la imagen base apache/airflow:2.6.0-python3.7. A continuación, se copia el archivo requirements.txt al contenedor y se instalan las dependencias a través de pip.
 
 
