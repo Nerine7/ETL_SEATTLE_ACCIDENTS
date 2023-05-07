@@ -26,7 +26,7 @@ El repositorio tiene dos tareas paso a describirlas:
 
 
                                                         seatle_csv_dag.py
-                                                    (Empeze con esta primera task)
+                                                    (Empece con esta primera task)
                                                     
                                                            Pasos del DAG:  
                                                            
