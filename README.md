@@ -64,4 +64,11 @@ El DAG consta de las siguientes tareas:
 5- export_db_task: esta tarea toma el DataFrame transformado y lo exporta a una tabla de base de datos de PostgreSQL.
 
 6- finish_task: esta tarea simplemente imprime un mensaje en la salida estándar para indicar que el DAG ha finalizado con éxito.
+
+
+
+###################    The end    ###################
+
+
+###################    Thanks and regards    ###################
   
