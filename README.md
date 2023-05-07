@@ -25,10 +25,10 @@ El repositorio tiene dos tareas paso a describirlas:
 
 
 
-                                                        seatle_csv_dag.py
-                                                    (Empece con esta primera task)
+                                      seatle_csv_dag.py
+                               (Empece con esta primera task)
                                                     
-                                                           Pasos del DAG:  
+                                        Pasos del DAG:  
                                                            
 El DAG consta de las siguientes tareas:
 
@@ -46,10 +46,11 @@ El DAG consta de las siguientes tareas:
                                                                                                              
                                                         
                                                                                                                                                                   
-                                                        seattle_db_csv_dag.py
-                                   (Luego de crear la primera task, desarrolle esta que esta mas completa)
+                                    seattle_db_csv_dag.py
+             (Luego de crear la primera task, desarrolle esta que esta mas completa)
                                    
-                                                          Pasos del DAG:
+                                       Pasos del DAG:
+                                       
 El DAG consta de las siguientes tareas:
 
 1- file_sensor_task: un sensor de archivo que verifica si un archivo CSV está disponible para procesar. Este sensor se asegura de que el DAG no comience hasta que el archivo esté disponible para su procesamiento.
