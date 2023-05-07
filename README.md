@@ -12,9 +12,14 @@ Si ya tienes todo el repositorio descargado y Docker configurado ejecuta los sig
                                     - docker-compose up
 
 
-   CARPETA SRC :
+  CARPETA SRC :
    
  En la carpeta src se pueden encontrar varios scripts que se pensaron al inicir el proyecto.
+ 
+ 
+  CARPETA fct :
+   
+ En la carpeta fct se guardan los archivos inputs y outputs el proyecto.
   
   
    Dockerfile :
