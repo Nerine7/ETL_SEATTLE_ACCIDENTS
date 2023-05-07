@@ -1,0 +1,6 @@
+# Paso todo lo que hay que instalar para que el proyecto corra bien
+pandas==1.3.3
+apache-airflow==2.6.0
+psycopg2-binary==2.9.1
+apache-airflow[postgres]
+pyarrow<10.1.0,>=10.0.1; extra == "pandas"
