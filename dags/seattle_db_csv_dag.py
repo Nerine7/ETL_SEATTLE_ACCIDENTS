@@ -51,7 +51,7 @@ def export_db_data():
     conn = engine.connect()
     conn.execute('CREATE TABLE IF NOT EXISTS accidentes_seattle (STNAME VARCHAR(255), YEAR INTEGER, AAWDT FLOAT)')
     conn.close()
-    df.to_sql('accidentes_seattle', engine, if_exists='append', index=False)
+    df.to_sql('accidentes_seattle', engine, if_exists='replace', index=False)
 
 dag = DAG(
     'accidents_seattle_db_csv',
